@@ -10,6 +10,8 @@ public final class MessageVO {
 
     private String message;
 
+    public MessageVO() {}
+    
     public MessageVO(String to, String from, String message) {
         this.to = to;
         this.from = from;
